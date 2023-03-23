@@ -1,0 +1,34 @@
+body {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.box {
+    height: 750px;
+    background-size: cover;
+    background-image: url("spider.jpeg");
+    box-shadow: inset 0em 0em 10em 7em #232323;
+  }
+  .collapse navbar-collapse{
+  color: pink;
+  }
+  .navbar{
+    background-color: black;
+  }
+  .nav-link{
+    text-color: white;
+  }
+}
+h1 {
+  font-size: 40px;
+  color: white;
+}
